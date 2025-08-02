@@ -1,3 +1,6 @@
+
+[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/eshansud.nestgen?label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=eshansud.nestgen)
+
 # NestGen
 
 Visualize and export the file/directory structure of your current workspace in one click.
@@ -15,6 +18,12 @@ Visualize and export the file/directory structure of your current workspace in o
 ## Requirements
 
 No external dependencies. Works out-of-the-box with VS Code `1.102.0 and above`.
+
+## Installation
+
+1. **VSCode Marketplace:** Search for "NestGen" in the VSCode Extensions Marketplace.
+2. **Install:** Click on "Install" to add NestGen to your VSCode setup.
+3. **Reload:** Reload VSCode to activate NestGen.
 
 ## Extension Settings
 
@@ -45,10 +54,6 @@ Suggestions, issues, and contributions are welcome!
 
 ---
 
-## For VS Code Marketplace
-
-Search for `NestGen`.
-
----
+We value your feedback! If you encounter any issues or have suggestions for improvement, please don't hesitate to **file an issue** on our GitHub repository.
 
 **Enjoy!**
