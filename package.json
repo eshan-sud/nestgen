@@ -1,0 +1,56 @@
+{
+  "name": "nestgen",
+  "displayName": "NestGen",
+  "publisher": "eshansud",
+  "description": "Generate file/directory structure tree of current workspace",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eshan-sud/nestgen.git"
+  },
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "File Structure Generator Settings",
+      "properties": {
+        "fileStructureGenerator.maxDepth": {
+          "type": "number",
+          "default": 10,
+          "description": "Maximum depth for tree generation"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "nestgen.generateTree",
+        "title": "Generate File Structure Tree"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./vscode-test.mjs"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.102.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.25.1"
+  },
+  "dependencies": {
+    "ignore": "^7.0.5"
+  }
+}

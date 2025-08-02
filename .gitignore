@@ -1,0 +1,7 @@
+# .gitignore
+
+node_modules
+.vscode-test/
+*.vsix
+.env
+file-structure.txt
